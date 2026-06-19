@@ -1,26 +1,239 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Wahaj Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Wahaj | Frontend Developer</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#0d1117;
+color:white;
+line-height:1.6;
+}
+
+header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+header h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+header h2{
+color:#58a6ff;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 20px;
+background:#238636;
+color:white;
+text-decoration:none;
+border-radius:8px;
+margin:5px;
+}
+
+section{
+max-width:1000px;
+margin:auto;
+padding:70px 20px;
+}
+
+.section-title{
+font-size:2rem;
+margin-bottom:20px;
+color:#58a6ff;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skill{
+background:#161b22;
+padding:10px 15px;
+border-radius:8px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.card{
+background:#161b22;
+padding:20px;
+border-radius:10px;
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+border-top:1px solid #222;
+}
+</style>
 </head>
+
 <body>
-    <h1>Hi, I'm Wahaj 👋</h1>
-    <p>Computer Science Student</p>
 
-    <h2>About Me</h2>
-    <p>I am learning software development and building projects.</p>
+<header>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>Python</li>
-        <li>HTML</li>
-        <li>Git & GitHub</li>
-    </ul>
+<h1>Muhammad Wahaj</h1>
 
-    <h2>Projects</h2>
-    <p>Projects coming soon...</p>
+<h2>Frontend Developer | React.js Developer | AI/ML Enthusiast</h2>
 
-    <h2>Contact</h2>
-    <p>GitHub: Mu-wahaj</p>
+<p>
+Building responsive web applications with React.js and exploring Machine Learning through practical projects.
+</p>
+
+<br>
+
+<a href="Muhammad_Wahaj_Resume.pdf" class="btn">
+Download Resume
+</a>
+
+<a href="https://github.com/Mu-Wahaj" class="btn">
+GitHub
+</a>
+
+<a href="https://linkedin.com/in/muhammadwahajj" class="btn">
+LinkedIn
+</a>
+
+</header>
+
+<section>
+
+<h2 class="section-title">About Me</h2>
+
+<p>
+Frontend Developer with experience building React.js applications and modern web interfaces.
+Currently pursuing a Bachelor of Information Technology at the University of the Punjab while expanding into Artificial Intelligence and Machine Learning using Python.
+</p>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill">React.js</div>
+<div class="skill">JavaScript</div>
+<div class="skill">HTML5</div>
+<div class="skill">CSS3</div>
+<div class="skill">Bootstrap</div>
+
+<div class="skill">Python</div>
+<div class="skill">C</div>
+<div class="skill">C++</div>
+
+<div class="skill">Git</div>
+<div class="skill">GitHub</div>
+
+<div class="skill">Pandas</div>
+<div class="skill">NumPy</div>
+<div class="skill">Scikit-Learn</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>E-Commerce Website</h3>
+<p>
+Responsive shopping application with cart, filtering and checkout workflow built using React.js.
+</p>
+</div>
+
+<div class="card">
+<h3>Restaurant Website</h3>
+<p>
+Digital menu, reservations and performance optimized user experience.
+</p>
+</div>
+
+<div class="card">
+<h3>Inventory Management System</h3>
+<p>
+C++ based stock management solution with reporting and alerts.
+</p>
+</div>
+
+<div class="card">
+<h3>House Price Predictor</h3>
+<p>
+Machine Learning regression model achieving strong prediction performance.
+</p>
+</div>
+
+<div class="card">
+<h3>SMS Spam Detector</h3>
+<p>
+NLP project achieving 97% classification accuracy.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Education</h2>
+
+<p>
+Bachelor of Information Technology<br>
+University of the Punjab<br>
+2024 - 2028
+</p>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Contact</h2>
+
+<p>Email: muhammad.wahaj.986@gmail.com</p>
+<p>Location: Lahore, Pakistan</p>
+
+</section>
+
+<footer>
+
+<p>© 2025 Muhammad Wahaj</p>
+
+</footer>
+
 </body>
 </html>
